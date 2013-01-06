@@ -1,0 +1,2 @@
+monodevelop-nuget-addin-repository
+==================================
