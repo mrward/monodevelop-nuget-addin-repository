@@ -29,4 +29,33 @@
       </Properties>
     </Addin>
   </Addin>
+  <Addin>
+    <Url>MonoDevelop.PackageManagement_0.2.mpack</Url>
+    <Addin>
+      <Id>PackageManagement</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>NuGet Package Management</Name>
+      <Version>0.2</Version>
+      <BaseVersion />
+      <Author>Matt Ward</Author>
+      <Copyright>MIT X11</Copyright>
+      <Url>https://github.com/mrward/monodevelop-nuget-addin</Url>
+      <Description>NuGet Package Management</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>3.0.5</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>3.0.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">253986</Property>
+      </Properties>
+    </Addin>
+  </Addin>
 </Repository>
