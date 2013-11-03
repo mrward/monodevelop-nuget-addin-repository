@@ -177,4 +177,34 @@
       </Properties>
     </Addin>
   </Addin>
+  <Addin>
+    <Url>MonoDevelop.PackageManagement_0.7.mpack</Url>
+    <Addin>
+      <Id>PackageManagement</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>NuGet Package Management</Name>
+      <Version>0.7</Version>
+      <BaseVersion />
+      <Author>Matt Ward</Author>
+      <Copyright>MIT X11</Copyright>
+      <Url>https://github.com/mrward/monodevelop-nuget-addin</Url>
+      <Description>Provides support for adding and maintaining NuGet packages in your project. Updated to use NuGet 2.7.1 and added PCL support.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="ReleaseNotesFile">_addin_files\7892f271.txt</Property>
+        <Property name="DownloadSize">573449</Property>
+      </Properties>
+    </Addin>
+  </Addin>
 </Repository>
