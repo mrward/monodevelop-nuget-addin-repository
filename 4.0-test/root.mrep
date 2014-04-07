@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Addin>
+    <Url>MonoDevelop.PackageManagement_0.9.mpack</Url>
+    <Addin>
+      <Id>PackageManagement</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>NuGet Package Management</Name>
+      <Version>0.9</Version>
+      <BaseVersion />
+      <Author>Matt Ward</Author>
+      <Copyright>MIT X11</Copyright>
+      <Url>https://github.com/mrward/monodevelop-nuget-addin</Url>
+      <Description>Provides support for adding and maintaining NuGet packages in your project. Updated to use NuGet 2.8.1</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>4.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>4.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="ReleaseNotesFile">_addin_files\13d8e1bb.txt</Property>
+        <Property name="DownloadSize">590988</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+</Repository>
